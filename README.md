@@ -10,7 +10,13 @@ Based on
 - https://github.com/Leopotam/ecs-types
 -----------
 # Timing results on android (Google Pixel):
-![results1](https://user-images.githubusercontent.com/6071298/51060074-29516a00-1610-11e9-8077-3251990365bd.png)
+![results1](https://user-images.githubusercontent.com/6071298/51064287-b997ab00-1620-11e9-9359-979041a60b31.png)
+-----------
+# Results
+Kinda strange.
+- SveltoECS with IL2CPP shows no boids at all.
+- PureECS shows same results with mono and IL2CPP (probably because of that stupid bruteforce neighbors detection algorithm)
+- LeoEcs+Jobs shows better results than ecs-threads, but I don't think it will be usable with more complex structure of components and systems
 
 Environment
 -----------
