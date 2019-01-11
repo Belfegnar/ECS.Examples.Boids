@@ -14,9 +14,9 @@ Based on
 -----------
 # Results
 Kinda strange.
-- SveltoECS with IL2CPP shows no boids at all.
-- PureECS shows same results with mono and IL2CPP (probably because of that stupid bruteforce neighbors detection algorithm)
-- LeoEcs+Jobs shows better results than ecs-threads, but I don't think it will be usable with more complex structure of components and systems
+- SveltoECS with IL2CPP does not show boids at all.
+- PureECS shows the same results with mono and IL2CPP (perhaps because of that stupid neighbor detection algorithm)
+- LeoEcs + Jobs shows better results than ecs-threads, but I do not think that it can be used with a more complex structure of components and systems
 
 Environment
 -----------
