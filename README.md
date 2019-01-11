@@ -1,6 +1,15 @@
-# ECS.Examples.Boids
+## ECS.Examples.Boids
 Simple Boids simulation example. Used for tests with PureECS, SveltoECS and LeoECS.
-Timing results on android (Google Pixel):
+
+Based on
+-----------
+- https://github.com/hecomi/UnityECSBoidsSimulation
+- https://github.com/sebas77/Svelto.ECS.Examples.Boids
+- https://github.com/Leopotam/ecs
+- https://github.com/Leopotam/ecs-threads
+- https://github.com/Leopotam/ecs-types
+-----------
+# Timing results on android (Google Pixel):
 ![results1](https://user-images.githubusercontent.com/6071298/51060074-29516a00-1610-11e9-8077-3251990365bd.png)
 
 Environment
